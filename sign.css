@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),#1c2423), url("image/signImage.png");
+  }
+  .img{
+      width: 150px;
+      padding: 20px;
+    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  .login-box {
+    background:  linear-gradient(rgba(0,0,0,0.5),#1c2423);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+    width: 97%;
+    padding: 10px;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  .login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ed0505;
+    color: white;
+  }
+  .help{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  .help a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .facebook{
+    padding-top: 30px;
+  }
+  .fa-facebook{
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .net{
+    padding: 10px;
+  }
+  .net a{
+    text-decoration: none;
+    color: rgb(252, 240, 240);
+  }
+  .net p a{
+    color: blue;
+  }
+
+
+  .bottom{
+    align-items: center;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.bottom h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.bottom .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.bottom .col a{
+    display: inline-flex;
+    margin: 30px;
+    text-decoration: none;
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bottom .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+  .lang-btn{
+    margin-left: 90px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.lang-btn i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.lang-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 100px) {
+    .login-box {
+      width: 100%;
+    }
+    .faq{
+      display: block;
+    }
+  }
